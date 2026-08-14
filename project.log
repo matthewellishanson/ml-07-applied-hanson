@@ -710,3 +710,318 @@ dtype: int64
 2026-08-12 21:18:06 | INFO | M07 | ========================
 2026-08-12 21:18:06 | INFO | M07 | API endpoint: https://ml-penguin-predictor.onrender.com/predict
 2026-08-12 21:18:06 | INFO | M07 | ========================
+2026-08-13 19:15:18 | INFO | M07 | === RUN START ===
+2026-08-13 19:15:18 | INFO | M07 | project=M07
+2026-08-13 19:15:18 | INFO | M07 | repo_dir=ml-07-applied-hanson
+2026-08-13 19:15:18 | INFO | M07 | python=3.14.3
+2026-08-13 19:15:18 | INFO | M07 | os=Windows 11
+2026-08-13 19:15:18 | INFO | M07 | shell=powershell
+2026-08-13 19:15:18 | INFO | M07 | cwd=notebooks
+2026-08-13 19:15:18 | INFO | M07 | github_actions=False
+2026-08-13 19:15:18 | INFO | M07 | Confirming installation:
+2026-08-13 19:15:18 | INFO | M07 |   python:       3.14.3
+2026-08-13 19:15:18 | INFO | M07 |   pandas:       3.0.5
+2026-08-13 19:15:18 | INFO | M07 |   numpy:        2.5.2
+2026-08-13 19:15:18 | INFO | M07 |   matplotlib:   3.11.1
+2026-08-13 19:15:18 | INFO | M07 |   seaborn:      0.13.2
+2026-08-13 19:15:18 | INFO | M07 |   requests:     2.34.2
+2026-08-13 19:15:18 | INFO | M07 | API endpoint: https://ml-penguin-predictor.onrender.com/predict
+2026-08-13 19:15:21 | INFO | M07 | Baseline predictions:
+2026-08-13 19:15:51 | INFO | M07 |   expected=Adelie     got=TIMEOUT (server may be sleeping - try again) [MISMATCH]
+2026-08-13 19:16:13 | INFO | M07 |   expected=Chinstrap  got=Chinstrap  [OK]
+2026-08-13 19:16:14 | INFO | M07 |   expected=Gentoo     got=Gentoo     [OK]
+2026-08-13 19:16:45 | INFO | M07 | body_mass_g sweep:
+2026-08-13 19:16:45 | INFO | M07 |  body_mass_g prediction
+ 2500.000000     Adelie
+ 2710.526316     Adelie
+ 2921.052632     Adelie
+ 3131.578947     Adelie
+ 3342.105263     Adelie
+ 3552.631579     Adelie
+ 3763.157895     Adelie
+ 3973.684211     Adelie
+ 4184.210526     Adelie
+ 4394.736842     Adelie
+ 4605.263158     Adelie
+ 4815.789474     Adelie
+ 5026.315789     Adelie
+ 5236.842105     Adelie
+ 5447.368421     Adelie
+ 5657.894737     Adelie
+ 5868.421053     Adelie
+ 6078.947368     Adelie
+ 6289.473684     Adelie
+ 6500.000000     Adelie
+2026-08-13 19:16:45 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift as body_mass_g changes?
+2026-08-13 19:19:16 | INFO | M07 | === RUN START ===
+2026-08-13 19:19:16 | INFO | M07 | project=M07
+2026-08-13 19:19:16 | INFO | M07 | repo_dir=ml-07-applied-hanson
+2026-08-13 19:19:16 | INFO | M07 | python=3.14.3
+2026-08-13 19:19:16 | INFO | M07 | os=Windows 11
+2026-08-13 19:19:16 | INFO | M07 | shell=powershell
+2026-08-13 19:19:16 | INFO | M07 | cwd=notebooks
+2026-08-13 19:19:16 | INFO | M07 | github_actions=False
+2026-08-13 19:19:16 | INFO | M07 | Confirming installation:
+2026-08-13 19:19:16 | INFO | M07 |   python:       3.14.3
+2026-08-13 19:19:16 | INFO | M07 |   pandas:       3.0.5
+2026-08-13 19:19:16 | INFO | M07 |   numpy:        2.5.2
+2026-08-13 19:19:16 | INFO | M07 |   matplotlib:   3.11.1
+2026-08-13 19:19:16 | INFO | M07 |   seaborn:      0.13.2
+2026-08-13 19:19:16 | INFO | M07 |   requests:     2.34.2
+2026-08-13 19:19:16 | INFO | M07 | API endpoint: https://ml-penguin-predictor.onrender.com/predict
+2026-08-13 19:19:21 | INFO | M07 | Baseline predictions:
+2026-08-13 19:19:22 | INFO | M07 |   expected=Adelie     got=Adelie     [OK]
+2026-08-13 19:19:22 | INFO | M07 |   expected=Chinstrap  got=Chinstrap  [OK]
+2026-08-13 19:19:23 | INFO | M07 |   expected=Gentoo     got=Gentoo     [OK]
+2026-08-13 19:19:36 | INFO | M07 | flipper_length_mm sweep:
+2026-08-13 19:19:36 | INFO | M07 |  flipper_length_mm prediction
+        170.000000     Adelie
+        173.157895     Adelie
+        176.315789     Adelie
+        179.473684     Adelie
+        182.631579     Adelie
+        185.789474     Adelie
+        188.947368     Adelie
+        192.105263     Adelie
+        195.263158     Adelie
+        198.421053     Adelie
+        201.578947     Adelie
+        204.736842     Adelie
+        207.894737     Adelie
+        211.052632     Adelie
+        214.210526     Adelie
+        217.368421     Adelie
+        220.526316     Adelie
+        223.684211     Adelie
+        226.842105     Adelie
+        230.000000     Adelie
+2026-08-13 19:19:37 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift as flipper_length_mm changes?
+2026-08-13 19:32:33 | INFO | M07 | bill_length_mm sweep:
+2026-08-13 19:32:33 | INFO | M07 |  bill_length_mm prediction
+      30.000000     Adelie
+      31.578947     Adelie
+      33.157895     Adelie
+      34.736842     Adelie
+      36.315789     Adelie
+      37.894737     Adelie
+      39.473684     Adelie
+      41.052632     Adelie
+      42.631579     Adelie
+      44.210526  Chinstrap
+      45.789474  Chinstrap
+      47.368421  Chinstrap
+      48.947368  Chinstrap
+      50.526316  Chinstrap
+      52.105263  Chinstrap
+      53.684211  Chinstrap
+      55.263158  Chinstrap
+      56.842105  Chinstrap
+      58.421053  Chinstrap
+      60.000000  Chinstrap
+2026-08-13 19:32:33 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-13 19:39:07 | INFO | M07 | === RUN START ===
+2026-08-13 19:39:07 | INFO | M07 | project=M07
+2026-08-13 19:39:07 | INFO | M07 | repo_dir=ml-07-applied-hanson
+2026-08-13 19:39:07 | INFO | M07 | python=3.14.3
+2026-08-13 19:39:07 | INFO | M07 | os=Windows 11
+2026-08-13 19:39:07 | INFO | M07 | shell=powershell
+2026-08-13 19:39:07 | INFO | M07 | cwd=notebooks
+2026-08-13 19:39:07 | INFO | M07 | github_actions=False
+2026-08-13 19:39:07 | INFO | M07 | Confirming installation:
+2026-08-13 19:39:07 | INFO | M07 |   python:       3.14.3
+2026-08-13 19:39:07 | INFO | M07 |   pandas:       3.0.5
+2026-08-13 19:39:07 | INFO | M07 |   numpy:        2.5.2
+2026-08-13 19:39:07 | INFO | M07 |   matplotlib:   3.11.1
+2026-08-13 19:39:07 | INFO | M07 |   seaborn:      0.13.2
+2026-08-13 19:39:07 | INFO | M07 |   requests:     2.34.2
+2026-08-13 19:39:07 | INFO | M07 | API endpoint: https://ml-penguin-predictor.onrender.com/predict
+2026-08-13 19:39:10 | INFO | M07 | Baseline predictions:
+2026-08-13 19:39:11 | INFO | M07 |   expected=Adelie     got=Adelie     [OK]
+2026-08-13 19:39:12 | INFO | M07 |   expected=Chinstrap  got=Chinstrap  [OK]
+2026-08-13 19:39:12 | INFO | M07 |   expected=Gentoo     got=Gentoo     [OK]
+2026-08-13 19:39:29 | INFO | M07 | bill_length_mm sweep:
+2026-08-13 19:39:29 | INFO | M07 |  bill_length_mm prediction
+      30.000000     Adelie
+      31.578947     Adelie
+      33.157895     Adelie
+      34.736842     Adelie
+      36.315789     Adelie
+      37.894737     Adelie
+      39.473684     Adelie
+      41.052632     Adelie
+      42.631579  Chinstrap
+      44.210526  Chinstrap
+      45.789474  Chinstrap
+      47.368421  Chinstrap
+      48.947368  Chinstrap
+      50.526316  Chinstrap
+      52.105263  Chinstrap
+      53.684211  Chinstrap
+      55.263158  Chinstrap
+      56.842105  Chinstrap
+      58.421053  Chinstrap
+      60.000000  Chinstrap
+2026-08-13 19:39:29 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-13 19:45:18 | INFO | M07 | === RUN START ===
+2026-08-13 19:45:18 | INFO | M07 | project=M07
+2026-08-13 19:45:18 | INFO | M07 | repo_dir=ml-07-applied-hanson
+2026-08-13 19:45:18 | INFO | M07 | python=3.14.3
+2026-08-13 19:45:18 | INFO | M07 | os=Windows 11
+2026-08-13 19:45:18 | INFO | M07 | shell=powershell
+2026-08-13 19:45:18 | INFO | M07 | cwd=notebooks
+2026-08-13 19:45:18 | INFO | M07 | github_actions=False
+2026-08-13 19:45:18 | INFO | M07 | Confirming installation:
+2026-08-13 19:45:18 | INFO | M07 |   python:       3.14.3
+2026-08-13 19:45:18 | INFO | M07 |   pandas:       3.0.5
+2026-08-13 19:45:18 | INFO | M07 |   numpy:        2.5.2
+2026-08-13 19:45:18 | INFO | M07 |   matplotlib:   3.11.1
+2026-08-13 19:45:18 | INFO | M07 |   seaborn:      0.13.2
+2026-08-13 19:45:18 | INFO | M07 |   requests:     2.34.2
+2026-08-13 19:45:18 | INFO | M07 | API endpoint: https://ml-penguin-predictor.onrender.com/predict
+2026-08-13 19:45:18 | INFO | M07 | Baseline predictions:
+2026-08-13 19:45:18 | INFO | M07 |   expected=Adelie     got=Adelie     [OK]
+2026-08-13 19:45:19 | INFO | M07 |   expected=Chinstrap  got=Chinstrap  [OK]
+2026-08-13 19:45:27 | INFO | M07 | === RUN START ===
+2026-08-13 19:45:27 | INFO | M07 | project=M07
+2026-08-13 19:45:27 | INFO | M07 | repo_dir=ml-07-applied-hanson
+2026-08-13 19:45:27 | INFO | M07 | python=3.14.3
+2026-08-13 19:45:27 | INFO | M07 | os=Windows 11
+2026-08-13 19:45:27 | INFO | M07 | shell=powershell
+2026-08-13 19:45:27 | INFO | M07 | cwd=notebooks
+2026-08-13 19:45:27 | INFO | M07 | github_actions=False
+2026-08-13 19:45:27 | INFO | M07 | Confirming installation:
+2026-08-13 19:45:27 | INFO | M07 |   python:       3.14.3
+2026-08-13 19:45:27 | INFO | M07 |   pandas:       3.0.5
+2026-08-13 19:45:27 | INFO | M07 |   numpy:        2.5.2
+2026-08-13 19:45:27 | INFO | M07 |   matplotlib:   3.11.1
+2026-08-13 19:45:27 | INFO | M07 |   seaborn:      0.13.2
+2026-08-13 19:45:27 | INFO | M07 |   requests:     2.34.2
+2026-08-13 19:45:27 | INFO | M07 | API endpoint: https://ml-penguin-predictor.onrender.com/predict
+2026-08-13 19:45:29 | INFO | M07 | Baseline predictions:
+2026-08-13 19:45:30 | INFO | M07 |   expected=Adelie     got=Adelie     [OK]
+2026-08-13 19:45:30 | INFO | M07 |   expected=Chinstrap  got=Chinstrap  [OK]
+2026-08-13 19:45:31 | INFO | M07 |   expected=Gentoo     got=Gentoo     [OK]
+2026-08-13 19:45:52 | INFO | M07 | bill_length_mm sweep:
+2026-08-13 19:45:52 | INFO | M07 |  bill_length_mm prediction
+      30.000000     Adelie
+      31.578947     Adelie
+      33.157895     Adelie
+      34.736842     Adelie
+      36.315789     Adelie
+      37.894737     Adelie
+      39.473684     Adelie
+      41.052632     Adelie
+      42.631579  Chinstrap
+      44.210526  Chinstrap
+      45.789474  Chinstrap
+      47.368421  Chinstrap
+      48.947368  Chinstrap
+      50.526316  Chinstrap
+      52.105263  Chinstrap
+      53.684211  Chinstrap
+      55.263158  Chinstrap
+      56.842105  Chinstrap
+      58.421053  Chinstrap
+      60.000000  Chinstrap
+2026-08-13 19:45:52 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-13 19:48:00 | INFO | M07 | === RUN START ===
+2026-08-13 19:48:00 | INFO | M07 | project=M07
+2026-08-13 19:48:00 | INFO | M07 | repo_dir=ml-07-applied-hanson
+2026-08-13 19:48:00 | INFO | M07 | python=3.14.3
+2026-08-13 19:48:00 | INFO | M07 | os=Windows 11
+2026-08-13 19:48:00 | INFO | M07 | shell=powershell
+2026-08-13 19:48:00 | INFO | M07 | cwd=notebooks
+2026-08-13 19:48:00 | INFO | M07 | github_actions=False
+2026-08-13 19:48:00 | INFO | M07 | Confirming installation:
+2026-08-13 19:48:00 | INFO | M07 |   python:       3.14.3
+2026-08-13 19:48:00 | INFO | M07 |   pandas:       3.0.5
+2026-08-13 19:48:00 | INFO | M07 |   numpy:        2.5.2
+2026-08-13 19:48:00 | INFO | M07 |   matplotlib:   3.11.1
+2026-08-13 19:48:00 | INFO | M07 |   seaborn:      0.13.2
+2026-08-13 19:48:00 | INFO | M07 |   requests:     2.34.2
+2026-08-13 19:48:00 | INFO | M07 | API endpoint: https://ml-penguin-predictor.onrender.com/predict
+2026-08-13 19:48:13 | INFO | M07 | Baseline predictions:
+2026-08-13 19:48:13 | INFO | M07 |   expected=Adelie     got=Adelie     [OK]
+2026-08-13 19:48:14 | INFO | M07 |   expected=Chinstrap  got=Chinstrap  [OK]
+2026-08-13 19:48:15 | INFO | M07 |   expected=Gentoo     got=Gentoo     [OK]
+2026-08-13 19:48:29 | INFO | M07 | bill_length_mm sweep:
+2026-08-13 19:48:29 | INFO | M07 |  bill_length_mm prediction
+      30.000000     Adelie
+      31.578947     Adelie
+      33.157895     Adelie
+      34.736842     Adelie
+      36.315789     Adelie
+      37.894737     Adelie
+      39.473684     Adelie
+      41.052632     Adelie
+      42.631579     Adelie
+      44.210526  Chinstrap
+      45.789474  Chinstrap
+      47.368421  Chinstrap
+      48.947368  Chinstrap
+      50.526316  Chinstrap
+      52.105263  Chinstrap
+      53.684211  Chinstrap
+      55.263158  Chinstrap
+      56.842105  Chinstrap
+      58.421053  Chinstrap
+      60.000000  Chinstrap
+2026-08-13 19:48:30 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-13 19:57:44 | INFO | M07 | === RUN START ===
+2026-08-13 19:57:44 | INFO | M07 | project=M07
+2026-08-13 19:57:44 | INFO | M07 | repo_dir=ml-07-applied-hanson
+2026-08-13 19:57:44 | INFO | M07 | python=3.14.3
+2026-08-13 19:57:44 | INFO | M07 | os=Windows 11
+2026-08-13 19:57:44 | INFO | M07 | shell=powershell
+2026-08-13 19:57:44 | INFO | M07 | cwd=notebooks
+2026-08-13 19:57:44 | INFO | M07 | github_actions=False
+2026-08-13 19:57:44 | INFO | M07 | Confirming installation:
+2026-08-13 19:57:44 | INFO | M07 |   python:       3.14.3
+2026-08-13 19:57:44 | INFO | M07 |   pandas:       3.0.5
+2026-08-13 19:57:44 | INFO | M07 |   numpy:        2.5.2
+2026-08-13 19:57:44 | INFO | M07 |   matplotlib:   3.11.1
+2026-08-13 19:57:44 | INFO | M07 |   seaborn:      0.13.2
+2026-08-13 19:57:44 | INFO | M07 |   requests:     2.34.2
+2026-08-13 19:57:44 | INFO | M07 | API endpoint: https://ml-penguin-predictor.onrender.com/predict
+2026-08-13 19:57:48 | INFO | M07 | Baseline predictions:
+2026-08-13 19:57:49 | INFO | M07 |   expected=Adelie     got=Adelie     [OK]
+2026-08-13 19:57:49 | INFO | M07 |   expected=Chinstrap  got=Chinstrap  [OK]
+2026-08-13 19:57:50 | INFO | M07 |   expected=Gentoo     got=Gentoo     [OK]
+2026-08-13 19:58:03 | INFO | M07 | bill_length_mm sweep:
+2026-08-13 19:58:03 | INFO | M07 |  bill_length_mm prediction
+      30.000000     Adelie
+      31.578947     Adelie
+      33.157895     Adelie
+      34.736842     Adelie
+      36.315789     Adelie
+      37.894737     Adelie
+      39.473684     Adelie
+      41.052632     Adelie
+      42.631579     Adelie
+      44.210526  Chinstrap
+      45.789474  Chinstrap
+      47.368421  Chinstrap
+      48.947368  Chinstrap
+      50.526316  Chinstrap
+      52.105263  Chinstrap
+      53.684211  Chinstrap
+      55.263158  Chinstrap
+      56.842105  Chinstrap
+      58.421053  Chinstrap
+      60.000000  Chinstrap
+2026-08-13 19:58:04 | INFO | M07 | ANALYST CHOICE: Where does the prediction shift and does that match your expectation?
+2026-08-13 19:59:10 | INFO | M07 | ANALYST CHOICE: What does the boundary shape tell you about the model?
+2026-08-13 20:03:38 | INFO | M07 | ANALYST CHOICE: Compare the facets. How does body_mass_g change the decision boundaries?
+2026-08-13 20:04:04 | INFO | M07 | Edge case results:
+2026-08-13 20:04:04 | INFO | M07 |   missing feature        -> ERROR: 400 Client Error: Bad Request for url: https://ml-penguin-predictor.onrender.com/predict
+2026-08-13 20:04:05 | INFO | M07 |   extreme bill length    -> Adelie
+2026-08-13 20:04:05 | INFO | M07 |   very large bill        -> Chinstrap
+2026-08-13 20:04:06 | INFO | M07 |   negative value         -> Adelie
+2026-08-13 20:04:07 | INFO | M07 |   zero body mass         -> Adelie
+2026-08-13 20:04:07 | INFO | M07 | ANALYST CHOICE: Which edge cases were handled cleanly and which were not?
+2026-08-13 20:04:07 | INFO | M07 | ========================
+2026-08-13 20:04:07 | INFO | M07 | SUMMARY
+2026-08-13 20:04:07 | INFO | M07 | ========================
+2026-08-13 20:04:07 | INFO | M07 | API endpoint: https://ml-penguin-predictor.onrender.com/predict
+2026-08-13 20:04:07 | INFO | M07 | ========================
+2026-08-13 20:46:14 | INFO | M07 | ANALYST CHOICE: Compare the facets. How does body_mass_g change the decision boundaries?

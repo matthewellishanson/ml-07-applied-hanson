@@ -27,6 +27,7 @@ See [docs/your-files.md] for more.
 Links:
 
 - [ml_07_case.ipynb](notebooks/ml_07_case.ipynb)
+- [ml_07_hanson.ipynb](notebooks/ml_07_hanson.ipynb)
 
 ## Working Files
 
@@ -89,9 +90,9 @@ open a machine terminal in your `Repos` folder:
 
 ```shell
 # Replace username with YOUR GitHub username.
-git clone https://github.com/username/ml-07-applied
+git clone https://github.com/matthewellishanson/ml-07-applied-hanson
 
-cd ml-07-applied
+cd ml-07-applied-hanson
 code .
 ```
 
